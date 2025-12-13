@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektro Fix Enterprise - Pusat Baikpulih Telefon Bimbit, Laptop & PC | Machang, Kelantan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader-wrapper">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <span class="loader-text">ELEKTROFIX</span>
+        </div>
+    </div>
+
+    <!-- Cursor Effect -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="elektro.webp" alt="Elektro Fix" class="logo-img">
+                <span class="logo-text">Elektro<span class="highlight">Fix</span></span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Utama</a>
+                <a href="#about" class="nav-link">Tentang Kami</a>
+                <a href="#services" class="nav-link">Perkhidmatan</a>
+                <a href="#features" class="nav-link">Kelebihan</a>
+                <a href="#testimonials" class="nav-link">Testimoni</a>
+                <a href="#contact" class="nav-link">Hubungi</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" title="Tukar Tema">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="https://wa.me/60189121055" target="_blank" class="btn btn-primary btn-glow">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp Kami</span>
+                </a>
+            </div>
+            
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-grid"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Pusat Baikpulih #1 di Machang, Kelantan</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Pembaikan <span class="gradient-text">Phone, Laptop & PC</span>
+                    <br>Pantas & Profesional
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Menyediakan perkhidmatan repair dan service peralatan elektronik seperti Phone, Laptop dan PC. 
+                    Telephone sek demo rosok jangan rusing, mari kedai kita meh beki sini puah hati!
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary btn-lg btn-glow">
+                        <i class="fas fa-tools"></i>
+                        <span>Lihat Perkhidmatan</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline btn-lg">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Hubungi Sekarang</span>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-number" data-count="15000">0</span>
+                            <span class="stat-label">Pelanggan Gembira</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-number" data-count="20000">0</span>
+                            <span class="stat-label">Peranti Dibaiki</span>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-number" data-count="10">0</span>
+                            <span class="stat-label">Tahun Pengalaman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000">
+                <div class="hero-phone">
+                    <div class="phone-frame">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="screen-content">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Pembaikan Profesional</span>
+                                <div class="repair-animation">
+                                    <div class="tool-icon"><i class="fas fa-screwdriver"></i></div>
+                                    <div class="tool-icon"><i class="fas fa-wrench"></i></div>
+                                    <div class="tool-icon"><i class="fas fa-microchip"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-icons">
+                        <div class="float-icon" style="--delay: 0s"><i class="fas fa-check-circle"></i></div>
+                        <div class="float-icon" style="--delay: 0.5s"><i class="fas fa-shield-alt"></i></div>
+                        <div class="float-icon" style="--delay: 1s"><i class="fas fa-bolt"></i></div>
+                        <div class="float-icon" style="--delay: 1.5s"><i class="fas fa-gem"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Skrol ke bawah</span>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span><i class="fas fa-mobile-alt"></i> Pembaikan Telefon</span>
+                <span><i class="fas fa-laptop"></i> Servis Komputer Riba</span>
+                <span><i class="fas fa-tablet-alt"></i> Pembaikan Tablet</span>
+                <span><i class="fas fa-tv"></i> Servis TV & Monitor</span>
+                <span><i class="fas fa-gamepad"></i> Pembaikan Konsol</span>
+                <span><i class="fas fa-headphones"></i> Servis Audio</span>
+                <span><i class="fas fa-mobile-alt"></i> Pembaikan Telefon</span>
+                <span><i class="fas fa-laptop"></i> Servis Komputer Riba</span>
+                <span><i class="fas fa-tablet-alt"></i> Pembaikan Tablet</span>
+                <span><i class="fas fa-tv"></i> Servis TV & Monitor</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-wrapper">
+                        <div class="image-card main">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="image-card floating card-1">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certified</span>
+                        </div>
+                        <div class="image-card floating card-2">
+                            <span class="big-number">10+</span>
+                            <span>Tahun</span>
+                        </div>
+                        <div class="experience-ring"></div>
+                    </div>
+                </div>
+                
+                <div class="about-content" data-aos="fade-left">
+                    <div class="section-badge">
+                        <span>Tentang Kami</span>
+                    </div>
+                    <h2 class="section-title">
+                        Pakar Pembaikan <span class="gradient-text">Elektronik</span> Terpercaya
+                    </h2>
+                    <p class="about-text">
+                        Elektro Fix Enterprise adalah pusat baikpulih telefon bimbit dan laptop yang terletak 
+                        di Machang, Kelantan. Kami menyediakan perkhidmatan repair dan service peralatan 
+                        elektronik seperti Phone, Laptop dan PC dengan harga berpatutan.
+                    </p>
+                    <p class="about-text">
+                        iPhone / Android sek awok punoh? Jom repair dengan kami! Pasukan teknisi kami yang 
+                        berpengalaman sentiasa bersedia menyelesaikan masalah elektronik anda dengan cepat dan efisien.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Kualiti Terjamin</h4>
+                                <p>Semua pembaikan dengan jaminan kualiti</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Perkhidmatan Pantas</h4>
+                                <p>Kebanyakan pembaikan siap dalam sehari</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Harga Berpatutan</h4>
+                                <p>Tiada caj tersembunyi, harga telus</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Waranti Diberikan</h4>
+                                <p>Waranti sehingga 6 bulan untuk pembaikan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Perkhidmatan Kami</span>
+                </div>
+                <h2 class="section-title">
+                    Perkhidmatan <span class="gradient-text">Pembaikan</span> Lengkap
+                </h2>
+                <p class="section-subtitle">
+                    Kami menawarkan pelbagai perkhidmatan pembaikan untuk semua jenis peralatan elektronik
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Pembaikan Telefon</h3>
+                    <p>Pakar dalam pembaikan semua jenama telefon pintar termasuk iPhone, Samsung, Huawei, Xiaomi dan lain-lain.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Penggantian skrin LCD</li>
+                        <li><i class="fas fa-check"></i> Pembaikan bateri</li>
+                        <li><i class="fas fa-check"></i> Pembaikan port charging</li>
+                        <li><i class="fas fa-check"></i> Pembaikan motherboard</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Ketahui Lebih Lanjut</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="featured-tag">RM40-RM60</div>
+                    <div class="card-glow"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Servis Laptop & PC</h3>
+                    <p>Jom servis dengan kami! RM40 - RM60 je bergantung atas laptop. Perkhidmatan berkualiti dan pantas.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Servis Cuci Habuk</li>
+                        <li><i class="fas fa-check"></i> Install Software</li>
+                        <li><i class="fas fa-check"></i> Tukar Skrin / Upgrade RAM</li>
+                        <li><i class="fas fa-check"></i> Tukar HDD ke SSD / Repair Motherboard</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Ketahui Lebih Lanjut</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h3>Pembaikan Tablet</h3>
+                    <p>Servis pembaikan untuk iPad, Samsung Tab, dan tablet jenama lain.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Penggantian skrin</li>
+                        <li><i class="fas fa-check"></i> Pembaikan bateri</li>
+                        <li><i class="fas fa-check"></i> Pembaikan butang</li>
+                        <li><i class="fas fa-check"></i> Pemulihan data</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Ketahui Lebih Lanjut</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Servis PC Desktop</h3>
+                    <p>Pembaikan dan penyelenggaraan komputer desktop untuk kegunaan rumah dan pejabat.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Pemasangan komponen</li>
+                        <li><i class="fas fa-check"></i> Pembersihan virus</li>
+                        <li><i class="fas fa-check"></i> Naik taraf sistem</li>
+                        <li><i class="fas fa-check"></i> Pemulihan data</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Ketahui Lebih Lanjut</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Pembaikan Konsol Permainan</h3>
+                    <p>Servis pembaikan untuk PlayStation, Xbox, Nintendo dan konsol permainan lain.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Pembaikan HDMI</li>
+                        <li><i class="fas fa-check"></i> Penggantian kipas</li>
+                        <li><i class="fas fa-check"></i> Pembaikan controller</li>
+                        <li><i class="fas fa-check"></i> Pembersihan dalaman</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Ketahui Lebih Lanjut</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Pembaikan Motherboard</h3>
+                    <p>Pakar dalam pembaikan motherboard tahap mikro untuk semua jenis peranti.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Micro soldering</li>
+                        <li><i class="fas fa-check"></i> Pembaikan IC</li>
+                        <li><i class="fas fa-check"></i> Reballing BGA</li>
+                        <li><i class="fas fa-check"></i> Pembaikan litar</li>
+                    </ul>
+                    <a href="#contact" class="service-link">
+                        <span>Ketahui Lebih Lanjut</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features/Why Choose Us Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Mengapa Pilih Kami</span>
+                </div>
+                <h2 class="section-title">
+                    Kelebihan <span class="gradient-text">Elektrofix</span>
+                </h2>
+                <p class="section-subtitle">
+                    Sebab-sebab utama pelanggan memilih kami untuk pembaikan elektronik mereka
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="feature-number">01</div>
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Perkhidmatan Ekspres</h3>
+                    <p>Kebanyakan pembaikan dapat disiapkan dalam masa 1-2 jam sahaja</p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-number">02</div>
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Teknisi Berpengalaman</h3>
+                    <p>Pasukan teknisi terlatih dengan pengalaman lebih 10 tahun</p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-number">03</div>
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Alat Ganti Original</h3>
+                    <p>Kami hanya menggunakan alat ganti berkualiti tinggi dan original</p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-number">04</div>
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Harga Kompetitif</h3>
+                    <p>Harga paling berpatutan di pasaran dengan kualiti terjamin</p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="feature-number">05</div>
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Waranti 6 Bulan</h3>
+                    <p>Setiap pembaikan disertakan waranti sehingga 6 bulan</p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="feature-number">06</div>
+                    <div class="feature-icon-wrapper">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Sokongan 24/7</h3>
+                    <p>Khidmat pelanggan sentiasa tersedia untuk membantu anda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Cara Kami Bekerja</span>
+                </div>
+                <h2 class="section-title">
+                    Proses <span class="gradient-text">Pembaikan</span> Mudah
+                </h2>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-line"></div>
+                
+                <div class="process-step" data-aos="fade-up" data-aos-delay="0">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Hubungi Kami</h3>
+                        <p>Hubungi kami melalui WhatsApp atau datang terus ke kedai</p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-search"></i></div>
+                        <h3>Diagnosa Percuma</h3>
+                        <p>Kami akan memeriksa peranti anda dan beri sebut harga</p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Proses Pembaikan</h3>
+                        <p>Teknisi kami akan membaiki peranti dengan teliti</p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3>Siap & Ambil</h3>
+                        <p>Peranti siap! Anda boleh datang ambil dengan waranti</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Testimoni Pelanggan</span>
+                </div>
+                <h2 class="section-title">
+                    Apa Kata <span class="gradient-text">Pelanggan</span> Kami
+                </h2>
+                <p class="section-subtitle">
+                    Dengar sendiri pengalaman pelanggan yang telah menggunakan perkhidmatan kami
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Perkhidmatan yang sangat baik! Telefon saya rosak skrin dan mereka baiki dalam masa 1 jam sahaja. 
+                        Harga pun berpatutan. Sangat recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>AH</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ahmad Hakimi</h4>
+                            <span>Machang</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Laptop demo dah lama rosak, bawak mai Elektro Fix, esok doh siap. 
+                        Teknisi memang profesional dan friendly. Terima kasih bang!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>NS</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Nurul Syafiqah</h4>
+                            <span>Kota Bharu</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Doh banyok kedai ambo gi untuk baiki iPhone, semua kata tok leh. 
+                        Elektro Fix je yang berjaya baiki. Memang pakar betul!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>MR</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Muhammad Rizal</h4>
+                            <span>Pasir Mas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <div class="cta-text">
+                    <h2>Peranti Anda Bermasalah?</h2>
+                    <p>Jangan risau! Hubungi kami sekarang untuk diagnosa percuma dan sebut harga tanpa sebarang komitmen.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/60189121055" target="_blank" class="btn btn-white btn-lg">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Sekarang</span>
+                    </a>
+                    <a href="tel:+60189121055" class="btn btn-outline-white btn-lg">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Hubungi Kami</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Hubungi Kami</span>
+                </div>
+                <h2 class="section-title">
+                    Jom <span class="gradient-text">Berhubung</span>
+                </h2>
+                <p class="section-subtitle">
+                    Ada soalan atau ingin membuat temujanji? Hubungi kami sekarang!
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Alamat Kami</h4>
+                            <p>Elektro Fix Service Center,<br>Kampong Machang,<br>Kelantan, Malaysia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp / Call</h4>
+                            <p>018-912 1055</p>
+                            <a href="https://wa.me/60189121055" target="_blank" class="contact-link">Chat Sekarang</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Facebook</h4>
+                            <p>Elektro Fix</p>
+                            <a href="https://web.facebook.com/profile.php?id=100029692492856" target="_blank" class="contact-link">Lawati Facebook</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Waktu Operasi</h4>
+                            <p>Isnin - Sabtu: 10:00 - 21:00<br>Ahad: 12:00 - 18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/profile.php?id=100029692492856" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/60189121055" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+60189121055" class="social-link" title="Call Us"><i class="fas fa-phone-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nama Penuh</label>
+                                <input type="text" id="name" name="name" placeholder="Masukkan nama anda" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">No. Telefon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Cth: 012-3456789" required>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email anda">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Jenis Perkhidmatan</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Pilih perkhidmatan</option>
+                                <option value="phone">Pembaikan Telefon</option>
+                                <option value="laptop">Servis Komputer Riba</option>
+                                <option value="tablet">Pembaikan Tablet</option>
+                                <option value="desktop">Servis PC Desktop</option>
+                                <option value="console">Pembaikan Konsol</option>
+                                <option value="other">Lain-lain</option>
+                            </select>
+                            <i class="fas fa-list"></i>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mesej</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Terangkan masalah peranti anda..." required></textarea>
+                            <i class="fas fa-comment-alt"></i>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block btn-glow">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Hantar Mesej</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <img src="elektro.webp" alt="Elektro Fix" class="logo-img">
+                        <span class="logo-text">Elektro<span class="highlight">Fix</span></span>
+                    </a>
+                    <p>Pusat pembaikan elektronik profesional yang dipercayai ramai. Kualiti terjamin, harga berpatutan.</p>
+                    <div class="footer-social">
+                        <a href="https://web.facebook.com/profile.php?id=100029692492856" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/60189121055" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+60189121055"><i class="fas fa-phone-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Pautan Pantas</h4>
+                    <ul>
+                        <li><a href="#home">Utama</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#services">Perkhidmatan</a></li>
+                        <li><a href="#features">Kelebihan</a></li>
+                        <li><a href="#contact">Hubungi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Perkhidmatan</h4>
+                    <ul>
+                        <li><a href="#services">Pembaikan Telefon</a></li>
+                        <li><a href="#services">Servis Komputer Riba</a></li>
+                        <li><a href="#services">Pembaikan Tablet</a></li>
+                        <li><a href="#services">Servis PC Desktop</a></li>
+                        <li><a href="#services">Pembaikan Konsol</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Hubungi Kami</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Elektro Fix Service Center, Machang, Kelantan</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <span>011-6556 1055 / 018-912 1055</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-facebook"></i>
+                            <span>Elektro Fix</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elektro Fix Enterprise. Hak Cipta Terpelihara.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Polisi Privasi</a>
+                    <a href="#">Terma & Syarat</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/60189121055" target="_blank" class="whatsapp-float" id="whatsappFloat">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">Chat dengan kami</span>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
